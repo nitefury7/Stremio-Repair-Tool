@@ -20,6 +20,12 @@ A simple tool to fix the "Stremio is damaged and can't be opened" or "Apple cann
     - _Note: You might need to confirm "Open" in the security dialog._
 5. Follow the on-screen prompts to repair Stremio.
 
+If the app is blocked:
+1. Open System Settings -> Privacy & Security.
+2. Scroll down to the Security section.
+3. Look for the message about "Stremio Repair.app" being blocked.
+4. Click "Open Anyway".
+
 ### Option 2: Run via Command Script
 
 1. Download `StremioRepair.command` from the repository.
