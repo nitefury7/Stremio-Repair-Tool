@@ -42,9 +42,11 @@ if sudo bash -c "
     echo -e "${GREEN}Success! Stremio has been fixed.${NC}"
     echo "You can now open it normally."
     read -p "Press [Enter] to exit..."
+    osascript -e 'tell application "Terminal" to close first window' & exit
 else
     echo ""
     echo -e "${RED}Repair failed. Please check the error messages above.${NC}"
     read -p "Press [Enter] to exit..."
+    osascript -e 'tell application "Terminal" to close first window' & exit
     exit 1
 fi
