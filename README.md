@@ -42,11 +42,11 @@ If you prefer using the command line manually:
 2. Clone this repository or download `stremio_repair.sh`.
 3. Make the script executable:
     ```bash
-    chmod +x stremio-repair.sh
+    chmod +x stremio_repair.sh
     ```
 4. Run the script:
     ```bash
-    ./stremio-repair.sh
+    ./stremio_repair.sh
     ```
 
 ## What it does
